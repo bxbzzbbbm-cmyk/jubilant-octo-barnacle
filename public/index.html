@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VPN React App</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script>
+    const htmlContent = `
+      VPN CLIENT LOADED
+      ENDPOINTS:
+      /api/vpn/countries
+      /api/vpn/connect
+      /api/vpn/disconnect
+    `;
+
+    console.log(htmlContent);
+  </script>
+
+  <!-- React CDN -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- bundle -->
+  <script src="bundle.js"></script>
+</body>
+</html>
